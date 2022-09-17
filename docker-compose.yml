@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  dev_container:
+    stdin_open: true
+    tty: true
+    build:
+      context: .
+      dockerfile: ./env/dev/Dockerfile
+    ports:
+      - 1313:1313
+    volumes:
+      - ./:/home/dev/nextjs-tryal
+      - ~/.ssh:/home/dev/.ssh:ro
+      - ~/.gitconfig:/home/dev/.gitconfig:ro
