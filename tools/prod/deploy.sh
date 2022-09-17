@@ -5,15 +5,15 @@ echo "[$0]"
 
     INITIAL_COMMIT=$(git show --oneline -s)
 
-    rm -rf /tmp/server
-    cp -r src/nextjs-blog/.next/server /tmp/server
+    rm -rf /tmp/public
+    cp -r src/nextjs-blog/out /tmp/public
 
     git checkout -f github-page
 
-    rm -rf server
-    mv /tmp/server server
+    rm -rf public
+    mv /tmp/public public
 
-    git add server
+    git add public
     git commit --allow-empty -m "Deploy from commit $INITIAL_COMMIT"
     git push
 )

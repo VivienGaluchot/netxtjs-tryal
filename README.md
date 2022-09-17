@@ -1,6 +1,6 @@
 # Anne leblanc com
 
-Demo at [https://viviengaluchot.github.io/nextjs-tryal/server/pages/](https://viviengaluchot.github.io/nextjs-tryal/server/pages/).
+Demo at [https://viviengaluchot.github.io/nextjs-tryal/public/](https://viviengaluchot.github.io/nextjs-tryal/public/).
 
 
 # Dev container
