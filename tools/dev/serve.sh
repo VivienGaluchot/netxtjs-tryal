@@ -3,8 +3,8 @@ echo "[$0]"
 (
     set -e
 
-    cd src
-    # TODO
+    cd src/nextjs-blog
+    npm run dev
 )
 if [ $? == 0 ] ; then
     echo "[$0 OK]"

@@ -2,7 +2,9 @@
 echo "[$0]"
 (
     cd src
-    # TODO
+
+    cd src/nextjs-blog
+    npm run build
 )
 if [ $? == 0 ] ; then
     echo "[$0 OK]"
