@@ -8,7 +8,7 @@ echo "[$0]"
     rm -rf /tmp/server
     cp -r src/nextjs-blog/.next/server /tmp/server
 
-    git checkout github-page
+    git checkout -f github-page
 
     rm -rf server
     mv /tmp/server server
