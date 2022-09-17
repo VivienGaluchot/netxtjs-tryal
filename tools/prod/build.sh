@@ -1,8 +1,6 @@
 #!/bin/bash
 echo "[$0]"
 (
-    cd src
-
     cd src/nextjs-blog
     npm run build
 )
