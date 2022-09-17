@@ -4,6 +4,7 @@ echo "[$0]"
     set -e
 
     cd src/nextjs-blog
+    npm install
     npm run dev
 )
 if [ $? == 0 ] ; then

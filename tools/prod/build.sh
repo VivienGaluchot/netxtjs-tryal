@@ -2,6 +2,7 @@
 echo "[$0]"
 (
     cd src/nextjs-blog
+    npm install
     npm run build
 )
 if [ $? == 0 ] ; then
