@@ -18,7 +18,6 @@ echo "[$0]"
 
     rm -rf public
     mv /tmp/public public
-    touch public/.nojekyll
 
     git add public
     git commit --allow-empty -m "Deploy from commit $INITIAL_COMMIT"
