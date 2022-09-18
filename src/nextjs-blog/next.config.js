@@ -1,6 +1,6 @@
 const { PHASE_DEVELOPMENT_SERVER } = require('next/constants');
 
-module.exports = (phase) => {
+module.exports = (phase, { defaultConfig }) => {
     /** @type {import('next').NextConfig} */
     let config = {};
     if (phase === PHASE_DEVELOPMENT_SERVER) {
@@ -16,7 +16,7 @@ module.exports = (phase) => {
             }
         };
     }
-    if (process.env.BASE_PATH) {
+    if (process.env.BASE_PATH != "") {
         config = {
             ...config,
             basePath: process.env.BASE_PATH,
