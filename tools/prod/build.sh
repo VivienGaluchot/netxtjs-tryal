@@ -2,6 +2,7 @@
 echo "[$0]"
 (
     cd src/nextjs-blog
+    
     npm install
 
     export BASE_PATH="/nextjs-tryal/public"

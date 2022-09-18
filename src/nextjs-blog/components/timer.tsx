@@ -5,7 +5,7 @@ type State = {
 }
 
 class Timer extends React.Component<{}, State> {
-    interval?: number;
+    interval?: NodeJS.Timer;
 
     constructor(props) {
         super(props);
