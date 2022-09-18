@@ -8,13 +8,13 @@ echo "[$0]"
     rm -rf /tmp/public
     cp -r src/nextjs-blog/out /tmp/public
 
-    if [ $1 == "--discard-diffs" ] ; then
-        echo "Discard diffs:"
+    if [ "$1" == "--discard-diffs" ]; then
+        echo "Discard diffs"
         git diff
         git checkout -f github-page
     else
         git checkout github-page
-    if
+    fi
 
     rm -rf public
     mv /tmp/public public
