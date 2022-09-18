@@ -1,6 +1,12 @@
 import React from 'react';
 
-class Timer extends React.Component {
+type State = {
+    seconds: number
+}
+
+class Timer extends React.Component<{}, State> {
+    interval?: number;
+
     constructor(props) {
         super(props);
         this.state = { seconds: 0 };
