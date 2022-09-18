@@ -1,4 +1,4 @@
-# Anne leblanc com
+# Next JS tryal
 
 Demo at [https://viviengaluchot.github.io/nextjs-tryal/public/](https://viviengaluchot.github.io/nextjs-tryal/public/).
 
