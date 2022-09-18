@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>Nice App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

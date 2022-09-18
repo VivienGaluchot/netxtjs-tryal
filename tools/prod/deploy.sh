@@ -8,7 +8,7 @@ echo "[$0]"
     rm -rf /tmp/public
     cp -r src/nextjs-blog/out /tmp/public
 
-    git checkout -f github-page
+    git checkout github-page
 
     rm -rf public
     mv /tmp/public public
